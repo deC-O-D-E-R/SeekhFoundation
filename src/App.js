@@ -6,6 +6,7 @@ import { Route, Routes } from "react-router-dom";
 import AboutUs from "./Pages/AboutUs";
 import Projects from "./Pages/Projects";
 import GetInvolved from "./Pages/GetInvolved";
+import Gallery from "./Pages/Gallery";
 
 function App() {
   return (
@@ -13,9 +14,10 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />}></Route>
-        <Route path="/aboutUs" element={<AboutUs />}></Route>
+        <Route path="/about" element={<AboutUs />}></Route>
         <Route path="/projects" element={<Projects />}></Route>
-        <Route path="/getInvolve" element={<GetInvolved />}></Route>
+        <Route path="/getInvolved" element={<GetInvolved />}></Route>
+        <Route path="/gallery" element={<Gallery />}></Route>
       </Routes>
       <Footer />
     </div>
