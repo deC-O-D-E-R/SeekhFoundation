@@ -1,7 +1,7 @@
 import React from 'react';
 import Hero from '../components/Hero';
 import mission1 from "../assets/img12.jpg";
-import org1 from "../assets/org1.jpg";
+import dp from "../assets/img.webp";
 import { useEffect } from 'react';
 
 const AboutUs = () => {
@@ -38,23 +38,23 @@ const AboutUs = () => {
                 <h2 className="text-3xl text-black font-semibold">Meet <span className="text-green-700">Our Teams</span></h2>
                 <div className="flex flex-row justify-center items-center gap-4 flex-wrap mt-4">
                     <div className="flex flex-col justify-center items-center max-w-[300px] relative rounded-xl">
-                        <img src={org1} alt='img1' />
+                        <img src={dp} alt='img1' />
                         <p className="absolute bottom-0 py-4 text-xl md:text-2xl font-poppins text-white bg-green-800 w-full text-center">Founder</p>
                     </div>
                     <div className="flex flex-col justify-center items-center max-w-[300px] relative rounded-xl">
-                        <img src={org1} alt='img1' />
+                        <img src={dp} alt='img1' />
                         <p className="absolute bottom-0 py-4 text-xl md:text-2xl font-poppins text-white bg-green-800 w-full text-center">Co-Founder</p>
                     </div>
                     <div className="flex flex-col justify-center items-center max-w-[300px] relative rounded-xl">
-                        <img src={org1} alt='img1' />
+                        <img src={dp} alt='img1' />
                         <p className="absolute bottom-0 py-4 text-xl md:text-2xl font-poppins text-white bg-green-800 w-full text-center">Marketing Head</p>
                     </div>
                     <div className="flex flex-col justify-center items-center max-w-[300px] relative rounded-xl">
-                        <img src={org1} alt='img1' />
+                        <img src={dp} alt='img1' />
                         <p className="absolute bottom-0 py-4 text-xl md:text-2xl font-poppins text-white bg-green-800 w-full text-center">Operation head</p>
                     </div>
                     <div className="flex flex-col justify-center items-center max-w-[300px] relative rounded-xl">
-                        <img src={org1} alt='img1' />
+                        <img src={dp} alt='img1' />
                         <p className="absolute bottom-0 py-4 text-xl md:text-2xl font-poppins text-white bg-green-800 w-full text-center">Finance Head</p>
                     </div>
                 </div>

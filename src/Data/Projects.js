@@ -4,6 +4,7 @@ import img3 from "../assets/img3.jpg";
 import img4 from "../assets/img4.jpg";
 import img5 from "../assets/img5.jpg";
 import img6 from "../assets/img6.jpg";
+import dp from "../assets/img.webp";
 
 
 export const allProjects = [
@@ -58,34 +59,34 @@ export const allProjects = [
 
 export const successStories = [
   {
-    name: 'Alice Johnson',
+    name: 'John Doe',
     story: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio.',
-    imageUrl: img1,
+    imageUrl: dp,
   },
   {
-    name: 'Bob Smith',
+    name: 'John Doe',
     story: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non libero venenatis, ullamcorper magna at, bibendum leo.',
-    imageUrl: img2,
+    imageUrl: dp,
   },
   {
-    name: 'Charlie Brown',
+    name: 'John Doe',
     story: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent interdum velit euismod, dapibus mi ac, condimentum arcu.',
-    imageUrl: img3,
+    imageUrl: dp,
   },
   {
-    name: 'Diane Evans',
+    name: 'John Doe',
     story: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Aenean nec eros velit. Curabitur vel bibendum arcu.',
-    imageUrl: img4,
+    imageUrl: dp,
   },
   {
-    name: 'Ethan Williams',
+    name: 'John Doe',
     story: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas hendrerit augue in arcu elementum tincidunt.',
-    imageUrl: img5,
+    imageUrl: dp,
   },
   {
-    name: 'Fiona Green',
+    name: 'John Doe',
     story: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non accumsan urna. Donec et turpis non eros vulputate tempor.',
-    imageUrl: img6,
+    imageUrl: dp,
   },
 ];
 

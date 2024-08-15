@@ -58,7 +58,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="flex justify-center items-center py-6 bg-green-700 text-white font-poppins px-3">
-                <p>Designed and developed with love by Mohd Tauheed</p>
+                <p>Designed and developed by Mohd Saif</p>
             </div>
         </div>
     );
